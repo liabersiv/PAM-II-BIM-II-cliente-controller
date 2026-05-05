@@ -1,4 +1,4 @@
-package com.julia;
+package com.julia.view;
 
 import android.os.Bundle;
 
@@ -8,6 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.julia.R;
 import com.julia.controller.Clientecontroller;
 
 public class MainActivity extends AppCompatActivity {
