@@ -23,8 +23,8 @@ public class Usuariocontroller {
 
             dados = new ContentValues();
 
-            dados.put(Usuariodatamodel.EMAIL, usuario.getEmail());
-            dados.put(Usuariodatamodel.SENHA, usuario.getSenha());
+            dados.put(Usuariodatamodel.email, usuario.getEmail());
+            dados.put(Usuariodatamodel.senha, usuario.getSenha());
 
             return true;
         }
